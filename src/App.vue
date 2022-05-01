@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld v-bind:msg="'The New Value:' + ready" />
+    <HelloWorld v-bind:msg="'The New Value: ' + ready" />
     <input
       v-model="text"
       v-on:keyup.enter="

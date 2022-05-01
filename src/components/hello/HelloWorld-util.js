@@ -6,5 +6,6 @@ export default function HelloWorld() {
     data() {
       return {};
     },
+    mounted() {},
   };
 }
